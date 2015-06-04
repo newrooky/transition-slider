@@ -11,6 +11,8 @@
 
 <div class="pt-wrapper">
     <div class="pt-trigger-container">
+
+        <!-- 
         <button class="pt-trigger" data-animation="1" data-goto="-1">Go to next page</button>
         <button class="pt-trigger" data-animation="2" data-goto="-2">Go to previous page</button>
         <button class="pt-trigger" data-animation="59-60-61-62-63-64-65-66-67" data-goto="-1">Next page - random anims</button>
@@ -20,8 +22,15 @@
         <button class="pt-trigger" data-animation="52" data-goto="3">Go to page 3</button>
         <button class="pt-trigger" data-animation="53" data-goto="4">Go to page 4</button>
         <button class="pt-trigger" data-animation="58" data-goto="5">Go to page 5</button>
-        <button class="pt-trigger" data-animation="59-60-61-62-63-64-65-66-67" data-goto="6">Go to page 6</button>
+        <button class="pt-trigger" data-animation="59-60-61-62-63-64-65-66-67" data-goto="6">Go to page 6</button> 
+        -->
 
+    <div id="un-professional">
+        <button class="pt-trigger" data-animation="20" data-goto="5">Un-Professional</button>
+    </div>
+    <div id="professional">
+        <button class="pt-trigger" data-animation="18" data-goto="6">Professional</button>
+    </div>
     </div>
 
     <!--All Pages-->
@@ -41,12 +50,22 @@
         horses
     </div>
     <div class="pt-page pt-page-5">
-        <h1><strong>Page 5</strong></h1>
+        <div class="fullscreen-bg">
+        <video loop muted autoplay poster="images/strange.jpg" class="fullscreen-bg__video">
+            <source src="video/strange.mp4" type="video/mp4">
+            <!-- <source src="../video/big_buck_bunny.ogv" type="video/ogv">
+            <source src="../video/big_buck_bunny.webm" type="video/webm"> -->
+        </video>
+        </div>  
+        <h1><strong>Page 5!</strong></h1>
     </div>
     <div class="pt-page pt-page-6">
+        <iframe src="http://spaceneedle.com" style="border: 0; width: 100%; height: 100%">Your browser doesn't support iFrames.</iframe>
         <h1><strong>Page 6</strong></h1>
     </div>
-
+    <div class="pt-page pt-page-7">
+        <h1><strong>Page 7</strong></h1>
+    </div>
 </div>
 
 
